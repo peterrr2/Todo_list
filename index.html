@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoList</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1 class="title">TODO-LIST</h1>
+    <form action="" id="todo_form" class="todo_form">
+        <input type="text" id="todo_input" class="todo_input">
+        <button id="todo_btn" class="todo_btn"><i class="fas fa-plus"></i></button>
+        <select id="todo_filter" class="todo_filter">
+            <option class="filter" value="All">All</option>
+            <option class="filter" value="Undone">Undone</option>
+            <option class="filter" value="Done">Done</option>
+        </select>
+    </form>
+    <div class="todo_task" id="todo_task">
+    </div>
+    <div class="alert_msg" id="alert_msg">
+        Please enter your task
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
